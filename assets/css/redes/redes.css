@@ -2,7 +2,7 @@
     background: #2B2B2B;
     display: flex;
     justify-content: end;
-    padding: 0 20px 20px 0;
+    padding: 20px 20px 10px 0;
 }
 
 .redes__github {
@@ -12,6 +12,8 @@
     width: 67px;
 }
 
+
+
 .redes__instagram {
     background-image: url('../../img/redes-sociais/instagram.png') ;
     background-repeat: no-repeat;
@@ -19,9 +21,12 @@
     width: 67px;
 }
 
+
+
 .redes__linkedin {
     background-image: url('../../img/redes-sociais/linkedin.png') ;
     background-repeat: no-repeat;
     height: 64px;
     width: 67px;
 }
+

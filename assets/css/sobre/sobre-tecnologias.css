@@ -1,0 +1,23 @@
+.sobre_tec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px 40px 20px;
+    
+}
+
+.sobre__tec-vue {
+    background-image: url('../../img/tech/vue.png') ;
+    background-repeat: no-repeat;
+    height: 76px;
+    margin-bottom: 20px;
+    width: 643px;
+}
+
+.sobre__tec-react {
+    background-image: url('../../img/tech/react.png');
+    background-repeat: no-repeat;
+    height: 76px;
+    width: 643px;
+}

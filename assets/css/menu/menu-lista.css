@@ -1,5 +1,6 @@
 .menu__lista {
    display: flex;
+   column-gap: 2rem;
    text-align: center;
 }
 
@@ -15,11 +16,14 @@
 }
 
 .menu__link {
-    color: antiquewhite;
+    border-radius: 0.3rem;
+    color: var(--text-color);
+    padding: 10px 8px;
     text-decoration: none;
 }
 
 .menu__item:hover {
     border-radius: 5px;
-    background: #DE7676;
+    background: var(--main-color);
+    transition: 0.300ms all linear;
 }

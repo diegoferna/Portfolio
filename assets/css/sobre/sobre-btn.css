@@ -1,0 +1,35 @@
+.sobre__btn {
+  align-items: center;
+  background: #2b2b2b;
+  border: 1px solid #2b2b2b;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px 0 #de7676;
+  color: var(--text-color);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  text-decoration: none;
+  width: 200px;
+  height: 10px;
+}
+
+.sobre__btn:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+
+.sobre_btn-descricao {
+  flex-grow: 2;
+}
+
+.sobre__btn-icon {
+  background-image: url("../../img/icon/btn_icon.png");
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  height: 13px;
+  width: 26px;
+}

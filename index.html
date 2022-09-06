@@ -6,6 +6,7 @@
     <title>dIEGO</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets//css/normalize.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/menu/menu.css" />
@@ -15,9 +16,17 @@
     <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
     <link rel="stylesheet" href="./assets/css/sobre/sobre-titulo.css">
     <link rel="stylesheet" href="./assets/css/sobre/sobre-descricao.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-tecnologias.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-btn.css">
+    <link rel="stylesheet" href="./assets/css/servicos/servicos.css">
+    <link rel="stylesheet" href="./assets/css/servicos/servicos-title.css">
   </head>
   <body>
-    <header class="menu">
+    <a href="#home"  class="scroll-top">
+      <i class='bx bx-chevron-up'></i>
+    </a>
+
+    <header  class="menu">
       <img class="menu__logo" src="./assets/img/logo/logo.png" alt="logo" />
       <nav class="menu__navegacao">
         <ul class="menu__lista">
@@ -37,7 +46,7 @@
       </nav>
     </header>
 
-    <section class="home">
+    <section id="home" class="home">
       <div class="home__img"></div>
 
       <div class="home__informacoes">
@@ -55,25 +64,32 @@
 
 
     <section class="redes">
-      <div class="redes__github"></div>
-      <div class="redes__instagram"></div>
-      <div class="redes__linkedin"></div>
+      <a href="https://github.com/diegoferna" class="redes__github" target="_blank"></a>
+      <a href="" class="redes__instagram" target="_blank"></a>
+      <a href="https://www.linkedin.com/in/diego-ferreira-nascimento-997a4969/" class="redes__linkedin" target="_blank"></a>
     </section>
 
     <section id="sobre" class="sobre">
       <h3 class="sobre__titulo">sobre</h3>
       <p class="sobre__descricao">
-        Afixionado por tecnologias e suas nuanceas, sempre olhando pa
-        o futuro e a evolução da web e se colocando como um profissional
-        atento aos detalhes e focado em continuar aprendendo. 
+        Formado em Análise e Desenvolvimento de Sistemas (Unijorge),
+        com mais de 2 anos de experiências na área de desenvolvimento 
+        web, atuando atulamente com as seguintes tecnologias e seus ambientes de desenvolvimento:
       </p>
-      <h4 class="sobre_subtitule"></h4>
-      <div class="sobre__btn">
-        <p>Donwload CV</p>
-        <div class="sobre__btn-icon"></div>
+      <div class="sobre_tec">
+        <div class="sobre__tec-vue"></div>
+        <div class="sobre__tec-react"></div>
       </div>
+
+      <h4 class="sobre_subtitule"></h4>
+    
+      <a href="./assets/cv/diegonascimento_cv.docx" onclick="mudarId()" class="sobre__btn" download="">
+        <p class="sobre_btn-descricao">Donwload CV</p>
+        <div id="sobre__btn" class="sobre__btn-icon"></div>
+      </a>
     </section>
     <section id="servicos" class="servicos">
+      <h3 class="servicos__title">servicos</h3>
       <p class="servicos__descricao"></p>
       <div class="servicos">
         <div class="servicos__img"></div>
@@ -82,8 +98,10 @@
     </section>
     <section id="contato" class="contato">
       <h2 class="contato__titulo"></h2>
-      <div class="contato_form"></div>
+      <div class="contato__form"></div>
     </section>
     <section id="radape" class="rodape"></section>
+
+    <script src="./main.js"></script>
   </body>
 </html>

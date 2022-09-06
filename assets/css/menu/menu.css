@@ -1,11 +1,20 @@
 .menu {
     align-items: center;
-    background: #2B2B2B;
+    background: var(--body-color);
     display: flex;
     justify-content: space-between;
     padding: 0 30px 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+  z-index: 100;
 }
+
 
 .menu__logo {
     width: 5rem;
+}
+
+.menu__navegacao {
 }

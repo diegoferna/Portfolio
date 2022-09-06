@@ -1,0 +1,6 @@
+.servicos__title {
+    color: var(--text-color-title);
+    font-size: 5rem;
+    padding: 20px 0 20px 0;
+    text-transform: uppercase;
+}
