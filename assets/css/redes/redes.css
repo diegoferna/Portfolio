@@ -1,0 +1,27 @@
+.redes {
+    background: #2B2B2B;
+    display: flex;
+    justify-content: end;
+    padding: 0 20px 20px 0;
+}
+
+.redes__github {
+    background-image: url('../../img/redes-sociais/github.png') ;
+    background-repeat: no-repeat;
+    height: 67px;
+    width: 67px;
+}
+
+.redes__instagram {
+    background-image: url('../../img/redes-sociais/instagram.png') ;
+    background-repeat: no-repeat;
+    height: 64px;
+    width: 67px;
+}
+
+.redes__linkedin {
+    background-image: url('../../img/redes-sociais/linkedin.png') ;
+    background-repeat: no-repeat;
+    height: 64px;
+    width: 67px;
+}

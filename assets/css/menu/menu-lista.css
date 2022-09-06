@@ -1,0 +1,25 @@
+.menu__lista {
+   display: flex;
+   text-align: center;
+}
+
+.menu__item {
+    font-size: 1rem;
+    list-style: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.menu__item:hover {
+    border-radius: 5px;
+    background: #DE7676;
+}

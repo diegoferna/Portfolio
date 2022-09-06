@@ -1,0 +1,9 @@
+.sobre__descricao {
+    color: var(--text-color);
+    display: inline-block;
+    line-height: 1.5rem;
+    margin-top: 20px;
+    width: 600px;
+    text-align: justify;
+    letter-spacing: 0.2rem;
+}
